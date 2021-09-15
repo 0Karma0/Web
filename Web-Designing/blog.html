@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>University Website Design</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+			  <i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a><a href=""></a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<h1>Our Certificate & Online programs for 2021</h1>
+
+	</section>
+
+	<section class="blog-content">
+		<div class="row">
+			<div class="blog-left">
+				<img src="images/Certificate.jpg">
+				<h2>Our Certificate & Online programs for 2021</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, laboriosam, delectus! Alias dolorum asperiores tempora deserunt, accusamus quasi doloremque voluptatum consectetur sapiente corrupti, officiis, explicabo.</p>
+				<br>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Ipsa aliquid molestias, dignissimos labore molestiae amet debitis perferendis laboriosam provident saepe sint maiores, odio quae accusamus vero nostrum consequatur omnis, quas voluptas doloremque, aperiam voluptatem officia? Exercitationem optio, atque consequatur maxime excepturi dolores sequi, commodi reprehenderit, illo sunt nam minus necessitatibus debitis quam veniam alias? Laudantium voluptatem a ipsam id excepturi!</p>
+				<br>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, minima? Quas eveniet neque eum laborum iure quam non quidem numquam, provident minus vitae blanditiis tempore odit recusandae cumque soluta harum fugit animi modi ducimus voluptates magnam quos? Nulla modi optio quod animi provident tempore a consectetur quasi, odio fugiat, expedita.</p>
+				<br>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consequuntur, minus ut aspernatur provident illo aut repellendus atque quisquam ipsa laudantium, cumque voluptatibus, nobis. Earum debitis, praesentium at eum voluptates quam ducimus voluptatum quis vel officia accusantium est ipsum magni!</p>
+
+				<div class="comment-box">
+					<h3>Leave a comment</h3>
+					<form class="comment-form">
+						<input type="text" placeholder="Enter Name">
+						<input type="email" placeholder="Enter Email">
+						<textarea rows="5" placeholder="Your Comment"></textarea>
+						<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+					</form>
+				</div>
+
+			</div>
+			<div class="blog-right">
+				<h3>Post Categories</h3>
+				<div>
+					<span>Business Analytics</span>
+					<span>21</span>
+				</div>
+				<div>
+					<span>Data Science</span>
+					<span>28</span>
+				</div>
+				<div>
+					<span>Machine Learning</span>
+					<span>15</span>
+				</div>
+				<div>
+					<span>Computer Science</span>
+					<span>34</span>
+				</div>
+				<div>
+					<span>AutoCAD</span>
+					<span>42</span>
+				</div>
+				<div>
+					<span>Journalism</span>
+					<span>22</span>
+				</div>
+				<div>
+					<span>Commerce</span>
+					<span>30</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<h4>CREATOR</h4>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ab quas<br> voluptatibus impedit consectetur id neque rem maiores nisi quo!</p>
+		<div class="icons">
+			<a href="#"><img src="images/facebook-icon.png"></a>
+			<a href="#"><img src="images/instagram-icon.png"></a>
+			<a href="#"><img src="images/twitter-icon.png"></a>
+			<a href="#"><img src="images/whatsapp-icon.png"></a>
+			<a href="#"><img src="images/linkedin-icon.png"></a>
+			<a href="#"><img src="images/snapchat-icon.png"></a>
+		</div>
+		<p>Website Crafted By MAHADI ADIB</p>
+	</section>
+
+	<script>
+		var navLinks = document.getElementById('navLinks')
+		function showMenu(){
+			navLinks.style.right = "0"
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200"
+		}
+	</script>
+
+</body>
+</html>
